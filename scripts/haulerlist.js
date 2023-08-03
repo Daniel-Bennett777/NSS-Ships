@@ -1,9 +1,10 @@
 import { getHaulingShips } from "./database.js"
 
+const haulers = getHaulingShips()
 
 export const haulerList = () => {
 
-    const haulers = getHaulingShips()
+
     let haulersHTML = "<ul>"
 
     for (const hauler of haulers) {

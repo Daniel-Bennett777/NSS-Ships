@@ -1,8 +1,8 @@
 import { getShips } from "./database.js"
 
+const ships = getShips()
 
 export const shipList = () => {
-    const ships = getShips()
 
     let shipsHTML = "<ul>"
 
