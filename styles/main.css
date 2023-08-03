@@ -1,0 +1,15 @@
+.details {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    flex-direction: row;
+}
+
+.detail--column {
+    flex-basis: 24%;
+    margin: 0 2rem;
+    border: 1px dotted goldenrod;
+}
+
+.assignments {
+    padding: 1rem 5rem;
+}
