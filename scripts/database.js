@@ -54,13 +54,13 @@ const database = {
 }
 
 export const getDocks = () => {
-    return database.docks.map(docks => ({...docks}))
+    return database.docks.map(dock => ({...dock}))
 }// You write the code for copying the array and returning it
 
 export const getHaulingShips = () => {
-    return database.haulers.map(haulers => ({...haulers}))// You write the code for copying the array and returning it
+    return database.haulers.map(hauler => ({...hauler}))// You write the code for copying the array and returning it
 }
 
 export const getShips = () => {
-    return database.ships.map(ships => ({...ships}))
+    return database.ships.map(ship => ({...ship}))
 }

@@ -1,6 +1,6 @@
 import { dockList } from "./docklist.js"
-import { haulerList } from "./haulerList.js"
-import { shipList } from "./shipList.js"
+import { haulerList } from "./haulerlist.js"
+import { shipList } from "./shiplist.js"
 
 
 const mainContainer = document.querySelector("#container")
